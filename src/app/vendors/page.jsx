@@ -90,7 +90,7 @@ const Home = () => {
       <h2 className="mt-2 mx-6 font-bold text-gray-600 text-lg mb-4">
         Vendor List
       </h2>
-      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-6">
         {vendors?.map((vendor) => (
           <li
             key={vendor._id}
