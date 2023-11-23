@@ -24,5 +24,5 @@ uses: netlify/actions/cli@master
 with:
 args: deploy --build --prod
 env:
-NETLIFY_SITE_ID: ${{ secrets.c805b0c2-ea67-47af-afc7-17a25d4f7526}}
+NETLIFY_SITE_ID: ${{ c805b0c2-ea67-47af-afc7-17a25d4f7526}}
 NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
