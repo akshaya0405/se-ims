@@ -101,7 +101,7 @@ export default function Transactions() {
   return (
     <div>
       <h1 className="font-bold py-2 text-2xl px-6 text-gray-600">
-        Transaction Management - hi
+        Transaction Management
       </h1>
       {/* New Transaction Dialog */}
       <Dialog
